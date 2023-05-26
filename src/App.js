@@ -8,6 +8,12 @@ import Post from './pages/Post';
 import Categoria from './pages/Categoria';
 
 
+/**  ➡️➡️ Todo se res ume en las rutas especificas y sus anidamientos imagine esto me brindan los datos de la base de datos ya bien estructurada y tengo que poner bien las rutas a cada archivo
+ * entonces observe este ejemplo hecho por mi  https:localhost/formaciones/react/cursos/modulos/viseos
+ * //dentro de mi oagina principal esta una ruta que se llama formacion y dentros de ella hay muchas como react, ahora dentro de react hay muchos cursos y dentro de esos cursos hay modulos y dentro de estos videos 
+ * entonces es ir controlando donde se encuentra anidadas rutas especificas  para poner los routes en ellas y que todo salga funcional
+*/
+
 
 //este import es vital para que funcione el react router y asi la SPA
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
